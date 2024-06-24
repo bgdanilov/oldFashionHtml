@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /css/
+Disallow: /images/
+Disallow: /data_images/
+Disallow: /orders/
+Disallow: /js/
+   
+    

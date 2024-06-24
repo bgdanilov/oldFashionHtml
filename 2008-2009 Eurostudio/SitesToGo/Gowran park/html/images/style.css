@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {margin:0px; padding:0px; min-height:100%;}
+body
+{background:#FFFFFF url(bg_main.jpg) bottom repeat-x; 
+font-family:Arial, Helvetica, sans-serif; color:#000000; font-size:100.01%;
+position:relative;}
+
+div {font-family:Arial, Helvetica, sans-serif; color: #000000; line-height:115%;}
+a, a.normal {color: #00976C; text-decoration:underline;}
+a:hover, a.normal:hover {color: #9D8853; text-decoration: underline;}
+
+p {margin:0px 0px 15px 0px;}
+a img {border:0px;}
+ul {list-style-image:url(bullet.gif); padding:0px; margin:0px 0px 15px 20px;}
+ol {padding:0px; margin:0px 0px 15px 25px;}
+
+h1, h2, h3, h4, h5, h6 {font-weight: normal; line-height:115%;}
+h1 {font-size:250%; font-weight:normal; color:#000000; font-family:"Times New Roman", Times, serif; margin:0px 0px 10px 0px; line-height:100%;}
+h2 {font-size:165%; margin:0px; padding-top: 5px;}
+h3 {font-size:145%; margin:0px; padding-top: 5px;}
+h4 {font-size:125%; margin:0px; padding-top: 5px;}
+h5, h6 {font-size:110%; color:#9D8853;}
+h1 span, h2 span {color:#9C8752;}
+
+.pic_left {float:left; margin-right:10px;}
+.pic_right {float:right; margin-left:10px;}
+.clear {clear:both;}
+.f_left {float:left;}
+.f_right {float:right;}
+
+/* structure */
+.main {width:960px; margin:0px auto; background: #ffffff;}
+
+.header {background:#007856 url(bg_topline.jpg) top repeat-x; padding-top:42px; position:relative; border-bottom:1px solid #FFFFFF; margin-top: 7px;}
+
+.logo {width:212px; height:132px; overflow: hidden; position:absolute; top:15px; left:374px;}
+body#inner .logo {width:102px; height:64px; left:429px;}
+.logo img {
+-padding-left: 212px;
+-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo.png',sizingMethod=crop);}
+body#inner .logo img {
+-padding-left: 102px;
+-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo_inner.png',sizingMethod=crop);}
+
+.blocks {float:left; width: 960px;}
+.block1, .block2, .block3 {width:320px; float:left;}
+a.block_link {color:#FFFFFF; text-decoration:none; font-family:"Times New Roman", Times, serif; font-size:20px; line-height: 100%; display:block; padding:6px 15px 5px 15px;}
+a.block_link:hover {color:#FFFFFF; text-decoration:none;}
+.block1 a.block_link {background:#00976C;}
+.block2 a.block_link {background:#98824A;}
+.block3 a.block_link {background:#808080;}
+.block1 a.block_link:hover {background:#008459;}
+.block2 a.block_link:hover {background:#866F3A;}
+.block3 a.block_link:hover {background:#6D6D6D;}
+
+.cols {background:url(bg_content.jpg) bottom repeat-x #ffffff; padding:20px 35px 20px 14px; *padding:20px 35px 0px 14px; width: 911px; float:left;}
+.container {background: url(cols_bg.gif) top left repeat-y; width: 911px; float:left; }
+body#inner .container {background: url(cols_inner_bg.gif) top left repeat-y; }
+
+.menu {width:151px; float:left; margin-right:15px; display:inline; font-size: 75%;}
+a.mainbuttontext {float:left; width:111px; padding:6px 30px 6px 10px; background:#ededed; margin-bottom: 2px; color:#00976C; text-decoration:none;}
+a.mainbuttontext:hover {color:#ffffff;  background:url(menu_dev.gif) center right no-repeat #00976C; margin-bottom: 2px; text-decoration:none;}
+.content {width:399px; float:left; padding-left:15px; font-size: 75%;}
+body#inner .content {width:730px;}
+.for_img {padding:5px; float:right; margin:0px 0px 10px 15px; background:#e6e6e6; border-bottom:1px solid #d3d8ca;}
+.for_img img {border:1px solid #808080; float:left;}
+.rightcol {width:270px; padding-left:15px; float:right; font-size: 70%;}
+.rightcol h2 {font-size:150%; color:#9D8853; text-transform:uppercase; margin:5px 0px; padding:0px; font-weight: bold;}
+.rightcol h4 {font-size:100%; color:#9D8853; text-transform:uppercase; margin:3px 0px 0px 0px; padding:0px; line-height:110%;}
+.rightcol p {margin:0px 0px 10px 0px; line-height:100%;}
+
+
+.footer {padding:20px 25px; float:left; width: 910px; font-size:12px; margin-bottom:20px; *margin-bottom:0px;}
+.footer_text {color:#9C8650; float:left; width:240px;}
+.bottom_links {float:right; width:170px;}
+
+/* form */
+form {padding:0px; margin:0px 0px 10px 0px;}
+.input {border:1px solid #808080; width:186px; padding:3px 5px; color:#B3B3B3; font-size:11px;}
+.btn {border:1px solid #00976C; background:#00976C; color:#FFFFFF; text-transform:uppercase; font-size:11px; height:22px;}

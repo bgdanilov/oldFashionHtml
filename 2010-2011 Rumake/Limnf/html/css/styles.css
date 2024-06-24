@@ -1,0 +1,436 @@
+/* **************************** common styles **************************** */
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrap {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0 0 54px 0;
+	/*background: url(../images/grin_n_col.gif) 0 0 repeat-y;*/
+	overflow: hidden;
+}
+/************ top **************/
+.top {
+	padding: 0 10px 0 10px;
+	width: 940px;
+	float: left;
+	margin: 0 0 54px 0;
+}
+body#inner .top {
+	margin: 0 0 36px 0;
+}
+/************ top-green *********/
+.top-green {
+	width: 300px;
+	height: 143px;
+	background: #1b9b57;
+	position: relative;
+	float: left;
+}
+.top-green h1, body#inner .top-green p {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 100%;
+	position: absolute;
+	top: 54px;
+	left: 33px;
+	font-family: Tahoma, Arial, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.top-green ul {
+	display: block;
+	float: left;
+	position: absolute;
+	top: 25px;
+	left: 194px;
+	width: 108px;
+	margin: 0;
+	padding: 0;
+}
+.top-green ul li {
+	display: block;
+	float: left;
+	height: 10px;
+	width: 13px;
+	list-style-image: none;
+	margin: 0 23px 0 0;
+	padding: 0;
+}
+.top-green ul li a {
+	display: block;
+	float: left;
+	height: 10px;
+	width: 13px;
+}
+.top-green ul li span {
+	display: none;
+}
+.top-green ul li.home, .top-green ul li.home a {
+	background: url(../images/home_ico_bg.gif) top left no-repeat;
+}
+.top-green ul li.map, .top-green ul li.map a {
+	background: url(../images/map_ico_bg.gif) top left no-repeat;
+}
+.top-green ul li.letter, .top-green ul li.letter a {
+	background: url(../images/letter_ico_bg.gif) top left no-repeat;
+}
+.top-green ul li.active, .top-green ul li a:hover {
+	background-position: bottom;
+}
+/******** logo ************/
+.logo {
+	width: 216px;
+	height: 68px;
+	margin: 64px 0 0 31px;
+	float: left;
+}
+/********* tel **********/
+.tel {
+	margin: 54px 0 0 172px;
+	float: left;
+	font-family: Tahoma, Arial, Geneva, sans-serif;
+}
+.tel p {
+	padding: 0 0 0 2px;
+	margin: 0;
+	color: #4e4e4e;
+}
+.tel p span {
+	font-size: 24px;
+	line-height: 36px;
+	color: #595959;
+	display: block;
+	margin: 0 0 18px 0;
+	padding: 0;
+}
+.tel-inner {
+	color: #6b6b6b!important;
+	width: 140px;
+	margin: 18px 0 0 252px;
+	float: left;
+	line-height: 18px;
+	font-family: Tahoma, Arial, Geneva, sans-serif;
+}
+.tel-inner p span.days {
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: 44px;
+	float: left;
+}
+.tel-inner p span.hours {
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: 55px;
+	float: left;
+}
+.tel-inner p sup {
+	position: relative;
+	top: 3px;
+	line-height: 9px;
+}
+.tel-inner p {
+	margin: 0;
+	padding: 0;
+	color: #6b6b6b;
+}
+/****************** header *****************/
+.header {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 0 36px 0;
+	float: left;
+}
+body#inner .header {
+	margin: 0 0 17px 0;
+}
+/************** booking ***********/
+.booking {
+	float: right;
+	padding: 18px 0 0 0;
+	line-height: 18px;
+	font-family: Tahoma, Arial, Geneva, sans-serif;
+}
+.booking img {
+	float: left;
+	margin: 7px 17px 0 0;
+}
+.booking p {
+	width: 140px;
+	display: block;
+	color: #ffffff;
+	float: left;
+	text-align: center;
+	margin: 0;
+}
+.booking p sup {
+	position: relative;
+	top: 3px;
+	line-height: 9px;
+}
+.booking p span {
+	background: url(../images/working_hours_bg.gif) top left no-repeat;
+	padding: 9px 0 9px 26px;
+	margin: 0 0 1px 0;
+	width: 114px;
+	display: block;
+	float: left;
+	text-align: left;
+}
+.booking p span.days {
+	background: none;
+	padding: 0;
+	margin: 0;
+	width: 44px;
+}
+.booking p span.hours {
+	background: none;
+	padding: 0;
+	margin: 0;
+	width: 55px;
+}
+/*********** path *****************/
+.path {
+	width: 300px;
+	padding: 9px 0 9px 320px;
+	border-bottom: 1px solid #de4b20;
+	float: left;
+}
+.path p {
+	text-align: left;
+	font-size: 11px;
+	color: #6B6B6B;
+	font-family: Tahoma, Arial, Geneva, sans-serif;
+	margin: 0;
+}
+.path a {
+	white-space: nowrap;
+}
+.path a:link, .path a:link, .path a:link, .path a:hover {
+	color: #7899cb;
+}
+/*********** columns **************/
+.columns {
+	width: 960px;
+	float: left;
+	margin: 0 0 54px 0;
+}
+body#inner .columns {
+	margin: 0 0 108px 0;
+}
+/*********** left-col *************/
+.left-col {
+	width: 240px;
+	padding: 0 0 0 10px;
+	float: left;
+}
+/*********** left-col-items ************/
+.left-col-items {
+	width: 280px;
+	margin: 0 0 72px -60px;
+	padding: 54px 0 0 0;
+	float: left;
+	font-size: 14px;
+	line-height: 18px;
+	display: inline;
+}
+.left-col-item {
+	width: 80px;
+	height: 90px;
+	float: left;
+	padding: 1 0 0 0;
+	margin: 0 0 18px 60px;
+	display: inline;
+	text-align: center;
+}
+.left-col-item img {
+	margin: 0 0 6px 0;
+}
+/*********** rounded ***************/
+.rounded {
+	width: 220px;
+	background: url(../images/rounded_bg.gif) top left repeat-y;
+	float: left;
+}
+.rounded-top {
+	width: 220px;
+	height: 6px;
+	background: url(../images/rounded_top_bg.gif) top left no-repeat;
+	float: left;
+}
+.rounded-body {
+	width: 140px;
+	padding: 21px 40px 27px 40px;
+	background: url(../images/rounded_bottom_bg.gif) bottom left no-repeat;
+	position: relative;
+	float: left;
+}
+p.rounded-link {
+	font-size: 24px;
+	line-height: 100%;
+	text-transform: lowercase;
+	position: absolute;
+	left: 1px;
+	top: -11px;
+ *top: -10px;
+}
+p.rounded-link a:link, p.rounded-link a:active, p.rounded-link a:visited, p.rounded-link a:hover {
+	text-decoration: none;
+	color: #cdd3e4;
+}
+.rounded ul {
+	padding: 0;
+	margin: 0;
+}
+.rounded ul li {
+	font-size: 14px;
+	line-height: 36px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+/*********** left-menu ***************/
+ul.left-menu {
+	padding: 36px 0 0 0;
+	margin: 0;
+}
+ul.left-menu li {
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 0 18px 0;
+	padding: 0;
+	background: none;
+	color: #DF4C18;
+}
+ul.left-menu li ul {
+	margin: 0;
+}
+ul.left-menu li ul li {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 0 0 0 40px;
+	margin: 0;
+}
+ul.left-menu a:visited {
+	text-decoration: underline;
+	color: #DF4C18;
+}
+ul.left-menu a:link {
+	text-decoration: underline;
+	color: #3677BA;
+}
+ul.left-menu a:active {
+	text-decoration: underline;
+	color: #3677BA;
+}
+ul.left-menu a:hover {
+	text-decoration: none;
+	color: #3677BA;
+}
+/*********** right-col *************/
+.right-col {
+	width: 640px;
+	padding: 0 10px 0 0;
+	float: right;
+}
+.content {
+	width: 620px;
+	float: right;
+}
+.main-pic {
+	margin: 0 -10px 9px 0;
+	width: 650px;
+}
+p.title {
+	font-size: 24px;
+	line-height: 36px;
+	color: #605d5c;
+	font-family: Tahoma, Arial, Geneva, sans-serif;
+	margin: 0 0 9px 0;
+}
+/*********** footer *****************/
+.footer {
+	width: 940px;
+	padding: 0 10px;
+	float: left;
+}
+/*********** rumake ****************/
+.rumake {
+	width: 240px;
+	float: left;
+	margin: 36px 0 0 0;
+}
+.rumake p {
+	margin: 0;
+	color: #333333;
+}
+.rumake img {
+	float: left;
+	margin: 0 14px 0 0;
+	display: inline;
+}
+/********** about **************/
+.about {
+	border-top: 1px solid #de4b20;
+	border-bottom: 1px solid #de4b20;
+	width: 620px;
+	float: left;
+	padding: 12px 0 13px 0;
+	position: relative;
+	font-family: Tahoma, Arial, Geneva, sans-serif;
+}
+.about p {
+	font-size: 18px;
+	line-height: 27px;
+	color: #1b9b57;
+	padding: 0;
+	margin: 0;
+}
+/********** contact ***********/
+.contact {
+	border-top: 1px solid #de4b20;
+	border-bottom: 1px solid #de4b20;
+	width: 380px;
+	float: right;
+	padding: 17px 0;
+	position: relative;
+}
+.contact p {
+	color: #333333;
+	margin: 0;
+	padding: 0;
+}
+p.red-bordered-link {
+	font-size: 24px;
+	line-height: 24px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	position: absolute;
+	right: 0px;
+	bottom: -1px;
+	*bottom: -4px;
+	font-family: Tahoma, Arial, Geneva, sans-serif;
+}
+p.red-bordered-link a:link, p.red-bordered-link a:active, p.red-bordered-link a:visited, p.red-bordered-link a:hover {
+	text-decoration: none;
+	color: #cdd3e4;
+}
+/************ over *************/
+.empty {
+	clear:both;
+	overflow:hidden;
+	font-size:0;
+	height:0;
+	width: 100%;
+}

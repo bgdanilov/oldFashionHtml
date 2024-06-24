@@ -1,0 +1,315 @@
+/* **************************** common styles **************************** */
+html, body {
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+  height:100%;
+  font-size: 100%;
+  }
+html { 
+  background: url(body_bg.jpg) repeat-y bottom center #d9d9d9;
+  }
+/************* common styles ****************/
+a:link, a:visited, a:active
+{color:#000000; text-decoration: underline;}
+a:hover {color:#000000; text-decoration: none;}
+
+.footer a:link, .footer a:visited, .footer a:active,
+a:link, a:visited, a:active,
+a.normal:link, a.normal:visited, a.normal:active
+{color:#3d64b1; text-decoration: underline;}
+a.normal:hover, a:hover, .footer a:hover {color:#3d64b1; text-decoration: none;}
+
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+  }
+p, ul, ol {
+   margin: 0px;
+   padding: 0px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   color: #000000;
+   }
+h1, h2, h3, h4 {
+   font-family: Georgia, "Times New Roman", Times, serif;
+   padding: 0px;
+   margin: 0px;
+   font-style: italic;
+   font-weight: normal;
+   }
+.clear {
+  clear: both;
+  }
+.blue {
+  color: #3d64b1;
+  } 
+.main {
+  width: 957px;
+  margin: 0px auto;
+  padding: 0px;
+  }
+.page_main {
+  width: 957px;
+  float: left;
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+  position: relative;
+  }
+.wrap {
+  width: 957px;
+  background: url(wrap_bg.gif) repeat-y bottom left;
+  float: left;
+  }
+.left {
+  width: 257px;
+  float: left;
+  margin: 0px 20px 0px 0px;
+  }
+.right {
+  width: 680px;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  }
+.cols {
+  width: 680px;
+  float: left;
+  position: relative;
+  padding: 0px;
+  }
+.top_cols {
+  width: 680px;
+  height: 16px;
+  float: left;
+  background: url(top_cols_bg.png) bottom left no-repeat;
+  }
+.box {
+  width: 250px;
+  background: url(box_bg.png) no-repeat bottom left #ffffff;
+  margin: 0px 0px 0px 6px;
+  float: right;
+  }
+/************* logo ****************/
+.logo {
+  width: 257px;
+  height: 274px;
+  background: url(logo_bg.png) no-repeat top right;
+  margin: 0px 20px 0px 0px;
+  float: left;
+  }
+.logo img {
+  padding: 21px 10px 12px 18px;
+  }
+.logo p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #171e1e;
+  font-size: 19px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  }  
+/************* header ****************/
+.header {
+  width: 680px;
+  height: 250px;
+  float: left;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  }
+/************* right_col ****************/  
+.right_col {
+  width: 195px;
+  background: url(right_col_bg.gif) no-repeat bottom right;
+  padding: 0px 0px 33px 0px;
+  float: left;
+  }
+.right_col_img {
+  width: 174px;
+  height: 311px;
+  margin: 0px 0px 12px 0px;
+  background: url(right_col_img_bg.png) no-repeat top left;  
+  -background: none;
+  -filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/right_col_img_bg.png", sizingMethod="scale");
+  }
+.right_col_img img {
+  padding: 7px 12px 7px 12px;
+  -padding: 7px 12px 5px 12px;
+  }
+.right_col_img p {
+  padding: 0px 12px 0px 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 120%;
+  color: #3d64b1;
+  text-align: center;
+  height: 35px;
+  }
+.paper_clip {
+  width: 30px;
+  height: 69px;
+  position: absolute;
+  z-index: 3;
+  top: 261px;
+  right: 64px;
+  background: url(paper_clip.png) no-repeat top left;
+  -background: none;
+  -filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/paper_clip.png", sizingMethod="crop");
+  }
+
+/************* content ****************/  
+.content {
+  width: 440px;
+  float: left;
+  margin: 0px 20px 0px 0px;
+  -margin: 0px 16px 0px 0px;
+  padding: 0px 0px 0px 25px;
+  }
+.content img {
+  margin: 0px 0px 5px 0px;
+  }
+.content h1 {
+  font-size: 166%;
+  line-height: 122%;
+  padding: 22px 0px 10px 8px;
+  margin: 0px;
+  color: #3d64b1;
+  }
+.content h2 {
+  font-size: 146%;
+  line-height: 122%;
+  padding: 10px 0px 10px 8px;
+  margin: 0px;
+  color: #333333;
+  }
+.content h3 {
+  font-size: 126%;
+  line-height: 122%;
+  padding: 10px 0px 10px 8px;
+  margin: 0px;
+  color: #3d64b1;
+  }
+.content h4 {
+  font-size: 106%;
+  line-height: 122%;
+  padding: 10px 0px 10px 8px;
+  margin: 0px;
+  color: #333333;
+  }
+.content p {
+  font-size: 70%;
+  line-height: 135%;
+  padding: 0px 7px 20px 8px;
+  }
+.content ul, .content ol {
+  font-size: 70%;
+  line-height: 135%;
+  padding: 0px 0px 15px 25px;
+  }
+.content ol {
+  padding: 0px 0px 15px 30px;
+  }
+.content ul li, .content ol li {
+  padding: 0px;
+  }
+   
+/************* menu ****************/
+.menu {
+  width: 208px;
+  background: url(box_top_bg.png) no-repeat top left;
+  padding: 40px 10px 64px 32px;
+  }
+a.mainbuttontext, a.mainbuttontext:active, a.mainbuttontext:visited
+   {
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+	line-height: 227%;
+	display: block;
+	text-decoration: none;
+	color: #3d64b1;
+	font-style:italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 103,9%;
+	}
+a.mainbuttontext:hover {
+    color:#999999;
+	}
+/************* book ****************/
+.book {
+  width: 150px;
+  height: 140px;
+  background: url(book_bg.png) 7px 0px no-repeat; red;
+  margin: 24px 0px 0px 0px;
+  padding: 15px 10px 7px 97px;
+  position: relative;
+  float: left;
+  }
+.book img {
+  position: absolute;
+  top: 44px;
+  left: 1px;
+  }
+.book p {
+ font-size: 20px;
+ line-height: 130%;
+ color: #333333;
+ text-align: center;
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-style: italic;
+ }
+/************* contact ****************/
+.contact {
+  width: 208px;
+  background: url(box_top_bg.png) no-repeat top left;
+  padding: 40px 10px 64px 32px;
+  }
+.contact p {
+  font-size: 70%;
+  line-height: 172%;
+  }
+.contact h2 {
+  font-size: 115%;
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+  }
+/************* footer ****************/  
+.footer {
+  width: 957px;
+  height: 63px;
+  margin: 0px 0px 10px 0px;
+  clear: both;
+  position: relative;
+  background: url(footer_bg.png) no-repeat top left;
+  }
+.footer p {
+  color: #000000;
+  font-size:11px;
+  line-height: 150%;
+  }
+.footer p.right_p {
+  display: block;
+  position: absolute;
+  top: 26px;
+  right: 15px;
+  text-align: right;
+  }
+.footer p.left_p {
+  display: block;
+  position: absolute;
+  top: 26px;
+  left: 292px;
+  }
+/*********** form *******************/
+form 
+  {padding: 0px 7px 20px 8px;
+   margin: 0px;
+   color: #000000;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   }
+input {
+   color: #000000;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 70%;
+   }

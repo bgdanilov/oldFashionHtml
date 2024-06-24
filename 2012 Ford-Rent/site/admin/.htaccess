@@ -1,0 +1,9 @@
+AuthType Basic   
+AuthName "Private zone. Only for administrator!"
+AuthUserFile /home/u390188/ford-rent.ru/pass/.htpasswd
+require valid-user
+
+ 
+
+
+

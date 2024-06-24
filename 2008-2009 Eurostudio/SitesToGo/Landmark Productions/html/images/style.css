@@ -1,0 +1,174 @@
+/* **************************** common styles **************************** */
+body {
+	height:100%;
+	margin:8px 0px 0px 0px;
+	padding:0px;
+	font-size:100.01%;
+	background-color: #FFFFFF;
+}
+	
+div {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:120%;
+	color: #231F20;
+	font-size: 100%;
+}
+
+a:link, a:visited, a:active{color:#B5121B; text-decoration: underline;}
+a:hover:hover {color:#231F20; text-decoration: underline;}
+
+a.normal:link, a.normal:visited, a.normal:active {color:#231F20; text-decoration: none;}
+a.normal:hover {color:#231F20; text-decoration: none; font-weight:bold;}
+a img {border:0}
+
+p {margin:0px 0px 15px 0px; padding:0px;}
+h1 {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	font-size:135%;
+	color:#B5121B;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+h2 {
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	font-size:135%;
+	color:#231F20;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	clear: both;
+	line-height:100%;
+}
+h3 {
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	font-size:140%;
+	color:#231F20;
+	line-height: 120%;
+	font-weight: normal;
+}
+
+h4 {margin:0px 0px 0px 0px; padding:0px; color: #231F20; font-weight:bold; font-size:100%;}
+h5 {margin:0px 0px 7px 0px; padding:0px; color:#B5121B; font-weight: normal; font-size:100%;}
+
+.clear { clear:both;}
+
+/* **************************** main **************************** */
+.main {
+	font-size: 80%;
+	width:780px;
+	display:block;
+	margin: 0px auto 0px auto;
+	background: #FFFFFF;
+	overflow:hidden;
+	padding: 0px;
+}
+/* **************************** header **************************** */
+.header {
+	height:130px;
+	background:#FFFFFF url(header-bg.gif) no-repeat 0 0;
+}
+
+.logo-pic{ float:left;}
+.logo{ float:left; width:220px; text-align:center; font-family:"Times New Roman", Times, serif; font-size:16px; font-weight:bold;  margin-left:60px; }
+/* **************************** pagebody **************************** */
+.pagebody  {
+	margin: 0px 0px 0px 0px;
+	display:block;
+	overflow: hidden;
+	padding: 10px 0px 0px 0px;
+	width:780px;
+	clear: both;
+	background:url(page-bg.gif) repeat-y left top;
+}
+/* **************************** left col **************************** */
+.leftcol {
+	width:200px;
+	padding: 0px 0px 5px 0px;
+	margin: 0px;
+	float:left;
+	display:block;
+	clear: both;
+}
+.menu {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 80px 0px;
+}
+a.mainbuttontext, a.mainbuttontext:active, a.mainbuttontext:visited {
+	width: 180px;
+	vertical-align: top;
+	margin: 0px;
+	padding: 4px 0px 4px 0px;
+	display: block;
+	text-decoration: none;
+	font-weight: normal;
+	color: #231F20;
+	font-size: 135%;
+	letter-spacing: -0.05em;
+}
+a.mainbuttontext:hover {text-decoration: none; color:#231F20; font-weight:bold;}
+
+a.mainbuttontext#act {text-decoration: none; color:#B5121B; font-weight:bold;}
+.newsletter-input {border:1px solid #231F20; height:17px; line-height:17px;  float:left; margin-bottom:5px;}
+.newsletter-btn{border:0px; float:left; margin-bottom:15px; *margin-bottom:5px;}
+
+/* **************************** center col **************************** */
+.centercol {
+	width: 258px;
+	margin: 0px 0px 0px 12px;
+	display:block;
+	float:left;
+	line-height: 130%;
+}
+.centercol ul{
+	margin: 0px 0px 20px 10px;
+	padding: 0px;
+}
+.centercol ul li {
+	margin: 0px 0px 0px 0px;
+	padding: 1px 0px 1px 20px;
+	background: url(bullet.gif) no-repeat 6px 7px;
+	list-style-type: none;
+}
+ul.submenu
+{
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+ul.submenu li {
+	margin: 0px 0px 0px 0px;
+	padding: 3px 0px 3px 0px;
+	list-style-type: none;
+	font-size:120%;
+}
+/* **************************** gallery **************************** */
+.gallery {
+	width: 568px;
+	margin: 0px 0px 0px 12px;
+	display:block;
+	float:left;
+	line-height: 130%;
+}
+.pic-gallery {
+	margin: 0px 8px 8px 0px;
+	float:left;
+}
+/* **************************** right col **************************** */
+.rightcol {
+	width:295px;
+	padding:0px;
+	margin: 0px 0px 0px 15px;
+	float:left;
+	display:block;
+}
+/* **************************** footer **************************** */
+.footer{background: url(footer-bg.gif) no-repeat bottom left; position:relative;}
+.footer-left {top:0px; left:0px; position:absolute; line-height:150%;}
+.footer-link {top:10px; left:212px; position:absolute; line-height:150%; height:65px;}
+.footer-info {top:12px; right:0px; position:absolute; text-align:right; line-height:150%;}
+.footer-info a, .footer-info a:visited, .footer-info a:active  {color:#231F20; text-decoration:none;}
+.footer-info a:hover {color:#231F20; text-decoration:none; font-weight:bold;}
+/* **************************** form **************************** */
+form {padding:0px; margin:0px; color:#231F20;}
+input {color:#231F20;; font-family:Arial, Helvetica, sans-serif;}
